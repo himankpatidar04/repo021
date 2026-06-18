@@ -1,0 +1,37 @@
+
+git init
+git add .
+git commit -m "initial commit"
+
+git  config --global user.name "Himank Patidar"
+git  config --global user.email "Himank.Patidar@coforge.com"
+git remote add origin https://github.com/himankpatidar04/Coforge_Training_June.git
+git push -u origin main (master)
+
+
+--- Branch
+------ Change Branch 
+------- git branch payment 
+------- git checkout payment 
+Switched to branch "payment"
+
+
+--- REBASE
+Feature bRanch
+Fetch VS PUll
+
+
+
+pay1 
+
+git add .
+git commit -m "pay1"
+
+pay2
+
+git stash
+
+//Checl
+git stash apply
+//check
+git stash clear
